@@ -1,7 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /case-growth-marketing.html
-Disallow: /case-brand-strategy.html
-Disallow: /case-ai-empowerment.html
-
 Sitemap: https://rauchmarketing.com/sitemap.xml
