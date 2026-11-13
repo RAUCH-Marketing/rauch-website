@@ -184,7 +184,8 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
 .tav.on img.ph{opacity:1;filter:grayscale(1) contrast(1.06)}
 .tav:hover .ph{border-color:rgba(242,241,236,.4)}
 .tav.on{width:74px;height:74px;transform:translateY(-4px)}
-.tav.on .ph{border:3px solid var(--pf);background:#2E3C62}
+.tav.on .ph{border:none;background:#2E3C62}
+.tav.on{box-shadow:0 0 0 4px var(--pf),0 0 0 7px rgba(43,73,232,.26)}
 .tbody{position:relative;min-height:270px}
 .tq{position:absolute;inset:0;opacity:0;visibility:hidden;transform:translateY(8px);
  transition:opacity .45s ease,transform .5s cubic-bezier(.22,.75,.3,1),visibility 0s .45s;
@@ -738,8 +739,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
 
 </style></head><body>
 <nav class="nav"><div class="wrap in"><a class="mark" href="index.html" style="text-decoration:none">RAUCH</a>
-<span class="nlinks"><span class="nd"><span class="nd"><a href="services.html">Services</a><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><a href="why-us.html">Why Us</a><a href="case-studies.html">Case Studies</a>
-<a href="partners.html">Partners</a><a href="about.html">About</a><a class="cta" href="contact.html">Let&rsquo;s talk</a></span>
+<span class="nlinks"><span class="nd"><span class="nd"><a href="services.html">Services</a><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><a href="why-us.html">Why Us</a><a href="partners.html">Partners</a><a href="about.html">About</a><a class="cta" href="contact.html">Let&rsquo;s talk</a></span>
 </div></nav>
 <header class="phead glass"><div class="gsweep"></div><div class="wrap z">
   <div class="kick">AI Empowerment</div><h1>What stays when <span class="hl">the contract ends.</span></h1><p>Every agency rents you knowledge, then takes it with them. We build it into something you keep.</p>
@@ -966,6 +966,10 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
   <div class="sechead"><h2>What you actually own.</h2>
   <p>Today the digital twin runs paid search. More growth channels follow: paid social, shopping, then SEO. The strategy work above them comes after that. We&rsquo;d rather tell you the roadmap than imply it&rsquo;s finished.</p></div>
   <div class="rows">
+    <div class="row2"><div><div class="rl">Why experience still matters</div></div>
+      <div><p>Everyone runs on the same models now. The model gives you a confident answer whether
+      or not it is the right one, and knowing which to act on is the part that still takes twenty
+      years. That judgment is the thing we capture.</p></div></div>
     <div class="row2"><div><div class="rl">The digital twin</div></div><div><p>The digital twin is built from your market, your constraints and your decisions. It belongs to you, and it doesn&rsquo;t transfer to anyone else.</p></div></div>
     <div class="row2"><div><div class="rl">The continuity</div></div><div><p>When the engagement ends, the digital twin keeps working. Your next agency, your in-house team, or nobody at all: the account doesn&rsquo;t reset to zero.</p></div></div>
     <div class="row2"><div><div class="rl">The platform</div></div><div><p>The digital twin is built on <a class="alink" href="https://arciom.com" target="_blank" rel="noopener">Arciom</a>. Arciom is a separate company and not a RAUCH product; we use it because the judgment it captures is the same thing this practice sells.</p></div></div>
@@ -987,7 +991,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
       <li><a href="growth-marketing.html">Growth Marketing</a></li><li><a href="brand-strategy.html">Brand Strategy</a></li>
       <li><a href="ai.html">AI Empowerment</a></li></ul></div>
     <div><div class="fh">Company</div><ul>
-      <li><a href="case-studies.html">Case Studies</a></li><li><a href="about.html">About</a></li>
+      <li></li><li><a href="about.html">About</a></li>
       <li><a href="partners.html">Partners</a></li><li><a href="contact.html">Contact</a></li></ul></div>
     <div><div class="fh">Contact</div><ul>
       <li><a href="mailto:info@rauchmarketing.com">info@rauchmarketing.com</a></li>
@@ -1064,6 +1068,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
   },{threshold:.4});
   io.observe(band);
 })();
+
 
 (function(){
   var band=document.getElementById('csstats'); if(!band) return;

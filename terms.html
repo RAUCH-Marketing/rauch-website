@@ -184,7 +184,8 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
 .tav.on img.ph{opacity:1;filter:grayscale(1) contrast(1.06)}
 .tav:hover .ph{border-color:rgba(242,241,236,.4)}
 .tav.on{width:74px;height:74px;transform:translateY(-4px)}
-.tav.on .ph{border:3px solid var(--pf);background:#2E3C62}
+.tav.on .ph{border:none;background:#2E3C62}
+.tav.on{box-shadow:0 0 0 4px var(--pf),0 0 0 7px rgba(43,73,232,.26)}
 .tbody{position:relative;min-height:270px}
 .tq{position:absolute;inset:0;opacity:0;visibility:hidden;transform:translateY(8px);
  transition:opacity .45s ease,transform .5s cubic-bezier(.22,.75,.3,1),visibility 0s .45s;
@@ -738,8 +739,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
 
 </style></head><body>
 <nav class="nav"><div class="wrap in"><a class="mark" href="index.html" style="text-decoration:none">RAUCH</a>
-<span class="nlinks"><span class="nd"><span class="nd"><a href="services.html">Services</a><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><a href="why-us.html">Why Us</a><a href="case-studies.html">Case Studies</a>
-<a href="partners.html">Partners</a><a href="about.html">About</a><a class="cta" href="contact.html">Let&rsquo;s talk</a></span>
+<span class="nlinks"><span class="nd"><span class="nd"><a href="services.html">Services</a><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><div class="ddm"><a href="growth-marketing.html">Growth Marketing</a><a href="brand-strategy.html">Brand Strategy</a><a href="ai.html">AI Empowerment</a></div></span><a href="why-us.html">Why Us</a><a href="partners.html">Partners</a><a href="about.html">About</a><a class="cta" href="contact.html">Let&rsquo;s talk</a></span>
 </div></nav>
 <header class="phead glass"><div class="gsweep"></div><div class="wrap z">
   <div class="kick">Legal</div><h1>Terms</h1><p>The terms that apply to using this website. Client work is governed by a separate agreement.</p>
@@ -770,7 +770,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
       <li><a href="growth-marketing.html">Growth Marketing</a></li><li><a href="brand-strategy.html">Brand Strategy</a></li>
       <li><a href="ai.html">AI Empowerment</a></li></ul></div>
     <div><div class="fh">Company</div><ul>
-      <li><a href="case-studies.html">Case Studies</a></li><li><a href="about.html">About</a></li>
+      <li></li><li><a href="about.html">About</a></li>
       <li><a href="partners.html">Partners</a></li><li><a href="contact.html">Contact</a></li></ul></div>
     <div><div class="fh">Contact</div><ul>
       <li><a href="mailto:info@rauchmarketing.com">info@rauchmarketing.com</a></li>
@@ -847,6 +847,7 @@ img.ph{object-fit:cover;filter:grayscale(1) contrast(1.04) brightness(.92);opaci
   },{threshold:.4});
   io.observe(band);
 })();
+
 
 (function(){
   var band=document.getElementById('csstats'); if(!band) return;
